@@ -1,10 +1,12 @@
+package DP;
 
-import java.io.*; 
-import java.util.*; 
-public class Main { 
+import java.io.*;
+import java.util.*;
+
+public class BJ_10844 {
   static int N; 
   static final long MOD = 1_000_000_000L; 
-  public static void main(String args[]) throws IOException { 
+  public static void main(String[] args) throws IOException {
     
     BufferedReader bf = new BufferedReader(new InputStreamReader(System.in)); 
     N = Integer.parseInt(bf.readLine()); long[][] dp = new long[N+1][10]; 
@@ -12,7 +14,8 @@ public class Main {
     dp[1][0] = 0L; 
     for(int i=1; i<10; i++) { 
       dp[1][i] = 1L; 
-    } 
+    }
+
     for(int i=2; i<=N; i++) { 
       dp[i][0] = dp[i-1][1]; 
       
