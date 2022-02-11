@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6abe69e6-8629-4a45-b6f0-f2ce3a342d83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DP/PFCT_chapter08_4.java" afterDir="false" />
+    <list default="true" id="6abe69e6-8629-4a45-b6f0-f2ce3a342d83" name="Changes" comment="[백준] 2156 : 포도주 시식">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DP/BJ_10844.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DP/BJ_10844.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,19 +35,19 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.PFCT_chapter08_4">
-    <configuration name="BJ_1463" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DP.BJ_1463" />
+  <component name="RunManager" selected="Application.BJ_10844">
+    <configuration name="BJ_10844" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DP.BJ_10844" />
       <module name="Algorithm_Java" />
       <extension name="coverage">
         <pattern>
@@ -59,15 +59,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Algorithm_Java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PFCT_chapter08_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DP.PFCT_chapter08_2" />
+    <configuration name="BJ_11726" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DP.BJ_11726" />
       <module name="Algorithm_Java" />
       <extension name="coverage">
         <pattern>
@@ -79,8 +72,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PFCT_chapter08_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DP.PFCT_chapter08_3" />
+    <configuration name="BJ_11727" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DP.BJ_11727" />
       <module name="Algorithm_Java" />
       <extension name="coverage">
         <pattern>
@@ -92,8 +85,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PFCT_chapter08_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DP.PFCT_chapter08_4" />
+    <configuration name="BJ_9095" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DP.BJ_9095" />
+      <module name="Algorithm_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PFCT_chapter08_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DP.PFCT_chapter08_5" />
       <module name="Algorithm_Java" />
       <extension name="coverage">
         <pattern>
@@ -107,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PFCT_chapter08_4" />
-        <item itemvalue="Application.PFCT_chapter08_3" />
-        <item itemvalue="Application.PFCT_chapter08_2" />
-        <item itemvalue="Application.BJ_1463" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.BJ_10844" />
+        <item itemvalue="Application.BJ_9095" />
+        <item itemvalue="Application.BJ_11727" />
+        <item itemvalue="Application.BJ_11726" />
+        <item itemvalue="Application.PFCT_chapter08_5" />
       </list>
     </recent_temporary>
   </component>
@@ -125,7 +131,104 @@
       <updated>1643296510385</updated>
       <workItem from="1643296512507" duration="16046000" />
       <workItem from="1643377421737" duration="5580000" />
+      <workItem from="1643812177182" duration="1420000" />
+      <workItem from="1643889029033" duration="361000" />
+      <workItem from="1643986339363" duration="666000" />
+      <workItem from="1644158959023" duration="2902000" />
+      <workItem from="1644585974009" duration="1039000" />
     </task>
+    <task id="LOCAL-00001" summary="[이것이 취업을 위한 코딩 테스트다.] chapter08-4 : 바닥 공사">
+      <created>1643390969851</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1643390969851</updated>
+    </task>
+    <task id="LOCAL-00002" summary="[이것이 취업을 위한 코딩 테스트다.] chapter08-5 : 효율적인 화폐 구성">
+      <created>1643394422550</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1643394422550</updated>
+    </task>
+    <task id="LOCAL-00003" summary="[백준] 11726 : 2Xn 타일링">
+      <created>1643395709198</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1643395709198</updated>
+    </task>
+    <task id="LOCAL-00004" summary="[백준] 11726 : 2Xn 타일링 2">
+      <created>1643397577754</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1643397577754</updated>
+    </task>
+    <task id="LOCAL-00005" summary="[백준] 9095 : 1, 2, 3 더하기">
+      <created>1643398448836</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1643398448836</updated>
+    </task>
+    <task id="LOCAL-00006" summary="[백준] 11727 : 2Xn 타일링 2">
+      <created>1643398526048</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1643398526048</updated>
+    </task>
+    <task id="LOCAL-00007" summary="[백준] 10844 : 쉬운 계단 수">
+      <created>1643812407289</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1643812407289</updated>
+    </task>
+    <task id="LOCAL-00008" summary="[백준] 11057 : 오르막 수">
+      <created>1643889342064</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1643889342065</updated>
+    </task>
+    <task id="LOCAL-00009" summary="[백준] 2193 : 이친수">
+      <created>1643986407025</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1643986407025</updated>
+    </task>
+    <task id="LOCAL-00010" summary="[백준] 2193 : 이친수">
+      <created>1644159045992</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1644159045992</updated>
+    </task>
+    <task id="LOCAL-00011" summary="[백준] 9465 : 스티커">
+      <created>1644244769957</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1644244769957</updated>
+    </task>
+    <task id="LOCAL-00012" summary="[백준] 9465 : 스티커">
+      <created>1644330406586</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1644330406586</updated>
+    </task>
+    <task id="LOCAL-00013" summary="[백준] 2156 : 포도주 시식">
+      <created>1644417832034</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1644417832034</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,5 +244,19 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[이것이 취업을 위한 코딩 테스트다.] chapter08-4 : 바닥 공사" />
+    <MESSAGE value="[이것이 취업을 위한 코딩 테스트다.] chapter08-5 : 효율적인 화폐 구성" />
+    <MESSAGE value="[백준] 11726 : 2Xn 타일링" />
+    <MESSAGE value="[백준] 11726 : 2Xn 타일링 2" />
+    <MESSAGE value="[백준] 9095 : 1, 2, 3 더하기" />
+    <MESSAGE value="[백준] 11727 : 2Xn 타일링 2" />
+    <MESSAGE value="[백준] 10844 : 쉬운 계단 수" />
+    <MESSAGE value="[백준] 11057 : 오르막 수" />
+    <MESSAGE value="[백준] 2193 : 이친수" />
+    <MESSAGE value="[백준] 9465 : 스티커" />
+    <MESSAGE value="[백준] 2156 : 포도주 시식" />
+    <option name="LAST_COMMIT_MESSAGE" value="[백준] 2156 : 포도주 시식" />
   </component>
 </project>
