@@ -11,24 +11,30 @@ public class BJ_9465 {
         StringTokenizer st;
         StringBuilder sb = new StringBuilder();
 
-        int t = Integer.parseInt(br.readLine());
+        int T = Integer.parseInt(br.readLine());
 
-        for (int tt = 0; tt < t; tt++) {
-            int n = Integer.parseInt(br.readLine());
-            int[][] info = new int[2][n + 1];
-            int[][] dp = new int[2][n + 1];
-            for (int i = 0; i < 2; i++) {
+        for(int i = 0; i < T; i++){ // 테스트 케이스의 개수 만큼 반목
+            int n = Integer.parseInt(br.readLine()); // 열의 개수
+            int[][] arr = new int[2][n+1]; // 점수를 입력받을 배열
+            int[][] dp = new int[2][n+1];
+
+            // 점수 입력받기
+            for(int j = 0; j < 2; j++){
                 st = new StringTokenizer(br.readLine());
-                for (int j = 1; j <= n; j++) {
-                    info[i][j] = Integer.parseInt(st.nextToken());
+                for(int k = 1; k <= n; k++){
+                    arr[j][k] = Integer.parseInt(st.nextToken());
                 }
             }
-            for (int i = 0; i < 2; i++) {
-                dp[i][1] = info[i][1];
+
+            // 초기값 지정
+            for(int j = 0; j < 2; j++){
+                dp[j][1] = arr[j][1];
             }
-            for (int i = 2; i <= n; i++) {
-                dp[0][i] = Math.max(dp[1][i - 1], dp[1][i - 2]) + info[0][i];
-                dp[1][i] = Math.max(dp[0][i - 1], dp[0][i - 2]) + info[1][i];
+
+            // 최대값 저장
+            for(int j = 2; j <= n; j++){
+                dp[0][j] = Math.max(dp[1][j-1], dp[1][j-2]) + arr[0][j];
+                dp[1][j] = Math.max(dp[0][j-1], dp[0][j-2]) + arr[1][j];
             }
             sb.append(Math.max(dp[0][n], dp[1][n])).append("\n");
         }
