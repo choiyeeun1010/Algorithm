@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6abe69e6-8629-4a45-b6f0-f2ce3a342d83" name="Changes" comment="[백준] 1000 : 문자열">
-      <change afterPath="$PROJECT_DIR$/src/IO/BJ_2558.java" afterDir="false" />
+    <list default="true" id="6abe69e6-8629-4a45-b6f0-f2ce3a342d83" name="Changes" comment="[백준] 2558 : A+B - 2">
+      <change afterPath="$PROJECT_DIR$/src/Implementation/PFCT_chapter04_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JO/JO_1495.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,39 +54,13 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.BJ_2558">
+  <component name="RunManager" selected="Application.JO_1495">
     <configuration name="BJ_1000" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IO.BJ_1000" />
       <module name="Algorithm_Java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="IO.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BJ_11053" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DP.BJ_11053" />
-      <module name="Algorithm_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BJ_11055" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DP.BJ_11055" />
-      <module name="Algorithm_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,13 +94,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JO_1495" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JO.JO_1495" />
+      <module name="Algorithm_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JO.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PFCT_chapter04_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Implementation.PFCT_chapter04_1" />
+      <module name="Algorithm_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Implementation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JO_1495" />
+        <item itemvalue="Application.PFCT_chapter04_1" />
         <item itemvalue="Application.BJ_2558" />
         <item itemvalue="Application.BJ_1000" />
         <item itemvalue="Application.BJ_11722" />
-        <item itemvalue="Application.BJ_11055" />
-        <item itemvalue="Application.BJ_11053" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +147,8 @@
       <workItem from="1644585974009" duration="7876000" />
       <workItem from="1644760000332" duration="6377000" />
       <workItem from="1644933995723" duration="2628000" />
-      <workItem from="1657302274011" duration="1021000" />
+      <workItem from="1657302274011" duration="3627000" />
+      <workItem from="1657556490107" duration="4735000" />
     </task>
     <task id="LOCAL-00001" summary="[이것이 취업을 위한 코딩 테스트다.] chapter08-4 : 바닥 공사">
       <created>1643390969851</created>
@@ -315,7 +318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657302986834</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="[백준] 2558 : A+B - 2">
+      <created>1657303345233</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1657303345233</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -349,6 +359,7 @@
     <MESSAGE value="[백준] 11722 : 가장 긴 감소하는 부분 수열" />
     <MESSAGE value="[백준] 11054 : 가장 긴 바이토닉 부분 수열" />
     <MESSAGE value="[백준] 1000 : 문자열" />
-    <option name="LAST_COMMIT_MESSAGE" value="[백준] 1000 : 문자열" />
+    <MESSAGE value="[백준] 2558 : A+B - 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="[백준] 2558 : A+B - 2" />
   </component>
 </project>
